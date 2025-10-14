@@ -1,14 +1,5 @@
-# YOLOv8 dataset config
-
-train: E:\The verdict hackathon\yolov8-project\dataset\hackathon2_test3\test3\images
-val: E:\The verdict hackathon\yolov8-project\dataset\hackathon2_test3\test3\images
+train: D:/hackathon/dataset/hackathon2_train_3/train_3/train3/images
+val: D:/hackathon/dataset/hackathon2_train_3/train_3/val3/images
 
 nc: 7
-names:
-  0: oxygen tank
-  1: nitrogen tank
-  2: first aid box
-  3: fire alarm
-  4: safety switch panel
-  5: emergency panel
-  6: fire extinguisher
+names: ['OxygenTank', 'NitrogenTank', 'FirstAidBox', 'FireAlarm', 'SafetySwitchPanel', 'EmergencyPhone', 'FireExtinguisher']
