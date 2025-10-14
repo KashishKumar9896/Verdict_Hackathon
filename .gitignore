@@ -11,8 +11,11 @@ yolov8env/
 *.sqlite3
 
 # Ignore dataset and results
-dataset/
-
+/dataset/
+/data/
+/runs/
+*.pt
+*.cache
 
 # Ignore OS files
 .DS_Store
@@ -23,6 +26,3 @@ Thumbs.db
 
 # Ignore logs
 *.log
-
-# Ignore model weights
-*.pt
