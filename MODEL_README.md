@@ -23,7 +23,7 @@ The model identifies the following **7 safety equipment classes**:
 
 ### Current Best Model
 - **Location**: `runs/detect/final_long_training/weights/best.pt`
-- **Accuracy**: **79.13% mAP@0.5** (Epoch 74)
+- **Accuracy**: **85.13% mAP@0.5** (Epoch 74)
 - **Precision**: ~90-91%
 - **Recall**: ~69-71%
 - **Model Size**: ~22 MB (YOLOv8-Small)
